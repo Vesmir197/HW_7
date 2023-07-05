@@ -1,31 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Sintony&family=Tomorrow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Sintony&family=Tomorrow&display=swap');
+
 
 @font-face {
-    font-family: BasisGrotesquePro-Light-woff2;
-    src: url(/Users/Work/Documents/Projector_Homeworks/HW_7a/fonts/BasisGrotesquePro-Light.woff2);
-    font-weight: 100;
-    font-style: normal;
+    font-family: BasisGrotesquePro-Bold;
+    src: url(fonts/BasisGrotesquePro-Bold.woff2);
 }
 @font-face {
-    font-family: BasisGrotesquePro-Bold-woff2;
-    src: url(/Users/Work/Documents/Projector_Homeworks/HW_7a/fonts/BasisGrotesquePro-Bold.woff2);
-    font-style: normal;
+    font-family: BasisGrotesquePro-Medium;
+    src: url(fonts/BasisGrotesquePro-Medium.woff2);
 }
 @font-face {
-    font-family: BasisGrotesquePro-Medium-woff2;
-    src: url(/Users/Work/Documents/Projector_Homeworks/HW_7a/fonts/BasisGrotesquePro-Medium.woff2);
+    font-family: BasisGrotesquePro;
+    src: url(fonts/BasisGrotesquePro-Regular.woff2);
 }
 @font-face {
-    font-family: BasisGrotesquePro-Bold-woff;
-    src: url(/Users/Work/Documents/Projector_Homeworks/HW_7a/fonts/BasisGrotesquePro-Bold.woff);
-    font-style: normal;
-}
-
-body{
-    max-width: 1440px;
-    margin: 0 auto;
-
+    font-family: BasisGrotesquePro;
+    src: url(fonts/BasisGrotesquePro-Light.woff2);  
 }
 
 body{
@@ -51,10 +40,11 @@ body{
 .subject {
     margin-left: 10px;
     margin-right: 40px;  
+    top: 40px;
 }
 .subject_a {
     color: rgb(142, 139, 139);
-    font-family: 'Raleway';
+    font-family: 'BasisGrotesquePro';
 }
 .navBlock {
     top: 40px;
@@ -67,12 +57,12 @@ ul {
 }
 
 li {
-    font-family: 'Raleway';
+    font-family: 'BasisGrotesquePro';
     font-size: 16px;
     list-style-type: none;
     text-transform: uppercase;
     padding: 0;
-    margin-right: 40px;
+    margin-right: 38px;
     margin-top: 0;
     color: black;
 
@@ -116,7 +106,8 @@ h3 {
     font-size: 16px;
     text-transform: uppercase;
     color: blue;
-    font-family: 'Raleway';
+    font-family: 'BasisGrotesquePro-Medium';
+    font-weight: 900;
   }
   
   h5 {
@@ -124,7 +115,8 @@ h3 {
       height: 6vh;
       margin-top: 50px;
       color: rgb(94, 92, 92);
-      font-family: 'BasisGrotesquePro-Light-woff2';
+      font-family: 'BasisGrotesquePro-Light';
+      font-weight: 100;
   }
   button {
     width: 213px;
@@ -165,18 +157,25 @@ h3 {
 .learn h1{
     margin-top: 6vh;
     font-size: xx-large;
-    font-family: 'BasisGrotesquePro-Bold-woff';
+    font-family: 'BasisGrotesquePro-Bold';
+    font-weight:800 ;
 }
 .education h1, .people h1 {
-    font-family: 'BasisGrotesquePro-Medium-woff2';
+    font-family: 'BasisGrotesquePro-Bold';
+    font-weight: 500;
     
 }
 .schools h3 {
     color: black;
     padding-bottom: 30vh;
 }
-.schools h5 {
-    font-family: 'BasisGrotesquePro-Light-woff2';
+.education h5, .learn h5 {
+    font-family: 'BasisGrotesquePro';
+    font-weight: 100; 
+}
+.schools h5{
+    font-family: 'BasisGrotesquePro';
+    font-weight: 100;
     font-weight: 100;
     color: rgb(55, 53, 53);
     width: 12vw;
@@ -186,11 +185,11 @@ h3 {
     color: white;
 }
 h3.thin {
-    font-family: 'BasisGrotesquePro-Light-woff2';
-    font-weight: 200;
+    font-family: 'BasisGrotesquePro';
+    font-weight: 100;
 }
 .participants h5 {
-    font-family: 'BasisGrotesquePro-Light-woff2';
+    font-family: 'BasisGrotesquePro';
     font-weight: 100;
     width: 12vw;
     height: 12vh;
@@ -198,20 +197,23 @@ h3.thin {
     margin-top: 35vh;
 }
 h3.thin-partners {
-    font-family: 'BasisGrotesquePro-Light-woff2';
-    font-weight: 200;
+    font-family: 'BasisGrotesquePro';
+    font-weight: 100;
     color: rgb(68, 67, 67);
 }
 .partners h3 {
     color: rgb(14, 13, 13);
 }
 .partners h5 {
-    font-family: 'BasisGrotesquePro-Light-woff2';
+    font-family: 'BasisGrotesquePro';
     font-weight: 100;
     color: rgb(55, 53, 53);
     margin-top: 35vh;
-    width: 12vw;
-    height: 10vh;
+    width: 18vw;
+
+}
+.inequality h5 {
+    font-family: 'BasisGrotesquePro';
 }
 .inequality .icon {
     display: inline-block;
@@ -226,41 +228,40 @@ h3.thin-partners {
 }
 .inequality .children {
 margin-left: 16vw;
-font-family: 'BasisGrotesquePro-Light-woff2';
+font-family: 'BasisGrotesquePro';
+font-weight: 100;
 font-size: 14px;
-width: 16vw;
+width: 22vw;
 }
 .problematics h1 {
     text-transform: uppercase;
-    font-family: 'BasisGrotesquePro-Medium-woff2';
+    font-family: 'BasisGrotesquePro-Bold';
+    font-weight: 500;
     width: 25vw;
 }
 .problematics h5 {
     padding-bottom: 6vh;
+    font-family: 'BasisGrotesquePro-Light';
+    width: 25vw;
 }
 
-.problematics .icon-hat {
+ .icon-hat {
     display: inline-block;
-    margin-top: 13vh;
+    margin-top: 10vh;
 
 }
-.problematics .icon-bag, .icon-2, .icon-4 {
+img.icon-4 {
     display: inline-block;
 }
 .problematics h5 {
-    font-family: 'BasisGrotesquePro-Light-woff2';
+    font-family: 'BasisGrotesquePro';
     font-size: 14px;
     font-weight: 100;
     color: rgb(39, 38, 38);
     margin-top: 2vh;
 
 }
-.problematics .union {
- display: inline-block;
-}
-.participants .union-2 {
 
-    float: right;
-}
+
 
 
