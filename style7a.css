@@ -1,8 +1,15 @@
 
-
+@font-face {
+    font-family: BasisGrotesquePro-Bold;
+    src: url(fonts/BasisGrotesquePro-Bold.woff);
+}
 @font-face {
     font-family: BasisGrotesquePro-Bold;
     src: url(fonts/BasisGrotesquePro-Bold.woff2);
+}
+@font-face {
+    font-family: BasisGrotesquePro-Medium;
+    src: url(fonts/BasisGrotesquePro-Medium.woff);
 }
 @font-face {
     font-family: BasisGrotesquePro-Medium;
@@ -10,7 +17,15 @@
 }
 @font-face {
     font-family: BasisGrotesquePro;
+    src: url(fonts/BasisGrotesquePro-Regular.woff);
+}
+@font-face {
+    font-family: BasisGrotesquePro;
     src: url(fonts/BasisGrotesquePro-Regular.woff2);
+}
+@font-face {
+    font-family: BasisGrotesquePro;
+    src: url(fonts/BasisGrotesquePro-Light.woff);  
 }
 @font-face {
     font-family: BasisGrotesquePro;
