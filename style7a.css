@@ -41,6 +41,10 @@ body{
     align-items: center;
     padding: 0px;  
 }
+
+.mainMenu {
+    display: none;
+}
  .navBlock{
     display: flex;
     align-items: center;
@@ -76,8 +80,8 @@ li {
     font-size: 16px;
     list-style-type: none;
     text-transform: uppercase;
-    padding: 0;
-    margin-right: 38px;
+    padding: 20px;
+    
     margin-top: 0;
     color: black;
 
@@ -92,7 +96,7 @@ a {
     padding: 0;
 }
 .ukr {
-    margin-left: 310px;
+    margin-left: 250px;
     margin-right: 0;
     padding: 0;
     color: blue;
@@ -255,27 +259,47 @@ width: 22vw;
     width: 25vw;
 }
 .problematics h5 {
-    padding-bottom: 6vh;
-    font-family: 'BasisGrotesquePro-Light';
-    width: 25vw;
-}
-
- .icon-hat {
-    display: inline-block;
-    margin-top: 10vh;
-
-}
-img.icon-4 {
-    display: inline-block;
-}
-.problematics h5 {
     font-family: 'BasisGrotesquePro';
+    width: 25vw;
     font-size: 14px;
     font-weight: 100;
     color: rgb(39, 38, 38);
     margin-top: 2vh;
-
 }
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+.union {
+    display: flex;
+    margin-top: 16.2vh;
+    flex-wrap: wrap; 
+    width: 16vw;
+}
+.union-2{
+    margin-top: 16.2vh;
+    margin-left: 10vw;
+    display: flex;
+    flex-wrap: wrap; 
+    width: 16vw;
+    font-family: 'BasisGrotesquePro';
+    font-size: 14px;
+}
+
+div.icon-bag {
+    margin-left: 40px;
+    margin-right: 20px;  
+}
+div.text-add {
+    width: 16vw;
+    font-family: 'BasisGrotesquePro';
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+
+
 
 
 
