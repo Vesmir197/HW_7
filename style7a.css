@@ -120,6 +120,11 @@ h3 {
     font-weight: 500;
     
 }
+div.vnesok {
+    width: 430px;
+    font-size: large;
+    margin-left: 86px;
+}
 img.schools-img {
     height: 100%;
     width: 360px;
@@ -176,6 +181,7 @@ h3.thin-partners {
 }
 
 .inequality h5 {
+    margin-top: 21.3vh;
     font-family: 'BasisGrotesquePro';
 }
 .inequality .icon {
@@ -208,7 +214,7 @@ width: 22vw;
     font-size: 14px;
     font-weight: 100;
     color: rgb(39, 38, 38);
-    margin-top: 2vh;
+    margin-top: 17vh;
 }
 .flex-container {
     display: flex;
@@ -217,11 +223,13 @@ width: 22vw;
 .union {
     display: flex;
     margin-top: 16.2vh;
+    margin-bottom: 20vh;
     flex-wrap: wrap; 
     width: 16vw;
 }
 .union-2{
     margin-top: 16.2vh;
+    margin-bottom: 20vh;
     margin-left: 10vw;
     display: flex;
     flex-wrap: wrap; 
@@ -240,6 +248,15 @@ div.text-add {
     font-weight: 100;
     font-size: 14px;
 }
+
+
+
+
+
+
+
+
+
 
 
 
